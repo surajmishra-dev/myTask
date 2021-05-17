@@ -1,0 +1,39 @@
+.signin_form_container {
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  color: white;
+}
+
+.signin_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin_column > * {
+  margin-bottom: 10px !important;
+  width: 100%;
+}
+.msg_close_icon {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .signin_form_container {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    box-sizing: border-box;
+  }
+
+  .msg {
+    width: 100% !important ;
+  }
+}
